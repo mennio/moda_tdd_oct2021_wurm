@@ -1,12 +1,16 @@
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Objects;
 
 public class Dictionnary {
      private String nom;
      private String t1, t2;
+     Map<String, String> translations
 
     public Dictionnary(){}
     public Dictionnary(String nom){
         this.nom = nom;
+        translations = new HashMap<String,String>();
     }
 
     public String getNom() {
