@@ -19,7 +19,13 @@ public class DictionnaryTest {
         dictionnaire = new Dictionnary("example");
     }
 
-    @Test public void TestDictionaryName(){
+    @Test
+    public void TestDictionaryName(){
         assertThat(dictionnaire.getNom(),equalTo("example"));
+    }
+
+    @Test
+    public void dictionnaireVide(){
+        assertThat(dictionnaire.isEmpty(),equalTo(true));
     }
 }

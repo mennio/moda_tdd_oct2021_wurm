@@ -9,4 +9,8 @@ public class Dictionnary {
     public String getNom() {
         return this.nom;
     }
+
+    public Boolean isEmpty(){
+        return  true;
+    }
 }

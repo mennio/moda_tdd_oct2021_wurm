@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DictionnaryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-28T09:51:05" hostname="LAPTOP-LTE4FVVU" time="0.012">
+<testsuite name="DictionnaryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-28T10:36:05" hostname="LAPTOP-LTE4FVVU" time="0.009">
   <properties/>
-  <testcase name="TestDictionaryName" classname="DictionnaryTest" time="0.012"/>
+  <testcase name="dictionnaireVide" classname="DictionnaryTest" time="0.009"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
