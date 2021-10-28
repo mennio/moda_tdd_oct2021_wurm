@@ -5,6 +5,9 @@ alors que dans le paramètre du constructeur on spécifie deja le nom.
 
 Il faut donc return la variable nom pour la méthode getNom
 
-//
+//exercice 1 question 6:
+
+la notion de refactoring permet de rendre le code plus performant et d'eviter sa dupplication.
+Il vat permettre de mieux comprendre le code.
 
 

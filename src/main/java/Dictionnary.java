@@ -1,5 +1,5 @@
 public class Dictionnary {
-    String nom;
+     private String nom;
 
     public Dictionnary(){}
     public Dictionnary(String nom){
@@ -7,6 +7,6 @@ public class Dictionnary {
     }
 
     public String getNom() {
-        return "example";
+        return this.nom;
     }
 }

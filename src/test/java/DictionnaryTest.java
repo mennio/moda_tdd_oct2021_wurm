@@ -16,7 +16,7 @@ public class DictionnaryTest {
 
     @Before
     public void initConstruct(){
-        dictionnaire = new Dictionnary();
+        dictionnaire = new Dictionnary("example");
     }
 
     @Test public void TestDictionaryName(){
