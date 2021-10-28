@@ -1,0 +1,8 @@
+//exercice 1 question 5:
+
+Il y a une duplication de code car dans la méthode getNom on spécifie en valeur de retour "Example"
+alors que dans le paramètre du constructeur on spécifie deja le nom.
+
+Il faut donc return la variable nom pour la méthode getNom.
+
+

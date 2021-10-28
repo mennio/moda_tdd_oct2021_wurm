@@ -16,10 +16,10 @@ public class DictionnaryTest {
 
     @Before
     public void initConstruct(){
-        dictionnaire = new Dictionnary("testFirst");
+        dictionnaire = new Dictionnary();
     }
 
     @Test public void TestDictionaryName(){
-        assertThat(dictionnaire.getNom(),equalTo("testFirst"));
+        assertThat(dictionnaire.getNom(),equalTo("example"));
     }
 }
