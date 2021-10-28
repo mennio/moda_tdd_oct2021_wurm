@@ -12,8 +12,17 @@ public class Dictionnary {
         return this.nom;
     }
 
+    public String getTranslation(String contre) {
+
+    }
+
     public Boolean isEmpty(){
         //return (Objects.equals(this.nom, ""));
         return true;
+    }
+
+
+    public void addTranslation(String contre, String against) {
+        
     }
 }

@@ -28,4 +28,9 @@ public class DictionnaryTest {
     public void dictionnaireVide(){
         assertThat(dictionnaire.isEmpty(),equalTo(""));
     }
+
+    @Test public void testOneTranslation() {
+        dictionnaire.addTranslation("contre", "against");
+        assertThat(dictionnaire.getTranslation("contre"), equalTo("against"));
+    }
 }
