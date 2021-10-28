@@ -30,6 +30,8 @@ public class Dictionnary {
         }
     }
 
+
+
     public Boolean isEmpty(){
         //return (Objects.equals(this.nom, ""));
         //return true;

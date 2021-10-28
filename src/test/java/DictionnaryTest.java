@@ -38,6 +38,13 @@ public class DictionnaryTest {
         assertThat(dictionnaire.getTranslation("contre"), equalTo("against"));
     }
 
+    @Test public void TestTranslationMultiple(){
+        dictionnaire.setList("against");
+        dictionnaire.setList("contre");
+        dictionnaire.addTranslation("contre", dictionnaire.getList());
+        assertThat(dictionnaire.getTranslation("contre"),equalTo(dictionnaire.getList()));
+    }
+
     @After
     public void initConstruct1(){
         dictionnaire = new Dictionnary("example");
