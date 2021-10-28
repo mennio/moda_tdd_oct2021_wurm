@@ -32,7 +32,11 @@ public class Dictionnary {
 
     public Boolean isEmpty(){
         //return (Objects.equals(this.nom, ""));
-        return true;
+        //return true;
+         if(translations.size() == 0 && Objects.equals(this.nom, "")) {
+             return true;
+         }
+         return false;
     }
 
     public void addTranslation(String trans1, String trans2) {
