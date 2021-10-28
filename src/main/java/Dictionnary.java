@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Dictionnary {
      private String nom;
 
@@ -11,6 +13,7 @@ public class Dictionnary {
     }
 
     public Boolean isEmpty(){
-        return  true;
+        return (Objects.equals(this.nom, ""));
+
     }
 }

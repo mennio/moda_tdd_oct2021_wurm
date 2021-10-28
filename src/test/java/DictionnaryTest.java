@@ -16,7 +16,7 @@ public class DictionnaryTest {
 
     @Before
     public void initConstruct(){
-        dictionnaire = new Dictionnary("example");
+        dictionnaire = new Dictionnary("");
     }
 
     @Test
@@ -26,6 +26,6 @@ public class DictionnaryTest {
 
     @Test
     public void dictionnaireVide(){
-        assertThat(dictionnaire.isEmpty(),equalTo(true));
+        assertThat(dictionnaire.isEmpty(),equalTo(""));
     }
 }
