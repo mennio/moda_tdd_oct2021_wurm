@@ -5,6 +5,7 @@ import java.util.Objects;
 public class Dictionnary {
      private String nom;
      private String t1, t2;
+
      Map<String, String> translations;
 
     public Dictionnary(){}
@@ -18,7 +19,15 @@ public class Dictionnary {
     }
 
     public String getTranslation(String t) {
-        return "against";
+        if(Objects.equals(this.t1, t)){
+            return this.t2;
+        }
+        else if(Objects.equals(this.t2, t)){
+            return this.t1;
+        }
+        else {
+            return "error translation";
+        }
     }
 
     public Boolean isEmpty(){
@@ -27,7 +36,7 @@ public class Dictionnary {
     }
 
     public void addTranslation(String trans1, String trans2) {
-        trans1 = "contre";
-        trans2 = "against";
+        t1 = trans1 ;
+        t2 = trans2;
     }
 }
