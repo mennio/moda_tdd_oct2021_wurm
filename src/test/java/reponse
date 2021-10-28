@@ -15,5 +15,8 @@ la methode isEmpty retourne tous le temps true donc elle n'est pas fiable car si
 
 
 //exercice 2 question 2:
-Les deux méthodes (getTranslation et addTranslation) ne sont différentes et ne concerne pas la meme chose
+Les deux méthodes (getTranslation et addTranslation)  sont différentes et ne concerne pas la meme chose
  on peut donc dire qu elles sont indépendantes entre elles.
+
+//exercice 3 question 1 :
+Je propose de faire une list de list
