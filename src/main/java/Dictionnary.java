@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Dictionnary {
      private String nom;
      private String t1, t2;
-     Map<String, String> translations
+     Map<String, String> translations;
 
     public Dictionnary(){}
     public Dictionnary(String nom){
