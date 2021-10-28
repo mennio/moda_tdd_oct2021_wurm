@@ -2,6 +2,9 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -18,6 +21,10 @@ public class DictionnaryTest {
     @Before
     public void initConstruct(){
         dictionnaire = new Dictionnary("example");
+        List<String> translate = new ArrayList<>();
+        translate.add("contre");
+        translate.add("against");
+
     }
 
     @Test

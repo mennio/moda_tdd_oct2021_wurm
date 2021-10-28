@@ -1,22 +1,23 @@
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Objects;
+import java.util.*;
 
 public class Dictionnary {
      private String nom;
      private String t1, t2;
+     private List<String> list;
 
      Map<String, String> translations;
 
     public Dictionnary(){}
     public Dictionnary(String nom){
         this.nom = nom;
-        translations = new HashMap<String,String>();
+        translations = new HashMap<>();
+        list = new ArrayList<>();
     }
 
     public String getNom() {
         return this.nom;
     }
+
 
     public String getTranslation(String t) {
         if(Objects.equals(this.t1, t)){
@@ -41,8 +42,8 @@ public class Dictionnary {
          return false;
     }
 
-    public void addTranslation(String trans1, String trans2) {
-        t1 = trans1 ;
-        t2 = trans2;
+    public void addTraduction(String firstWord, String trad){
+        list.add(trad);
+        this.translations.put(firstWord,list);
     }
 }

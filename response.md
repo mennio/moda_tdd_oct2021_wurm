@@ -17,7 +17,31 @@ la methode isEmpty retourne tous le temps true donc elle n'est pas fiable car si
 
 //exercice 2 question 2:
 Les deux méthodes (getTranslation et addTranslation)  sont différentes et ne concerne pas la meme chose
- on peut donc dire qu elles sont indépendantes entre elles.
+on peut donc dire qu elles sont indépendantes entre elles.
 
 //exercice 3 question 1 :
 Je propose de faire une list de list.
+
+* [ ] FakeIT
+* [ ] Construire une classe de tests nommée DictionaryTest
+  * [ ] Creer un objet de type directory
+  * [ ] méthode getName()
+  * [ ] refactoring 
+  * [ ] attribut private name
+  * [ ] Méthode isEmpty()
+
+* [ ] Triangulation
+  * [ ] ecriire un test
+  * [ ] question 
+  * [ ] rafinnage du test
+  * [ ] classe xith tab hachage
+  * [ ] addtranslation + gettranslation
+  * [ ] Améliorer le test du vide du dictionnaire en augmentant le test initial.
+
+* [ ] Les fixtures de JUnit
+  * [ ] mise en place du after classe
+  
+* [ ] Traductions multiples
+  * [ ] question traduction multiple
+  * [ ] test traduction multiple
+  * [ ] addTranslation, getTranslation, setList, getList
