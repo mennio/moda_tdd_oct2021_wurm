@@ -1,3 +1,4 @@
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -29,10 +30,16 @@ public class DictionnaryTest {
         assertThat(dictionnaire.isEmpty(),equalTo(true));
     }
 
-    @Test public void testOneTranslation() {
+    @Test
+    public void testOneTranslation() {
         dictionnaire.addTranslation("contre", "against");
         dictionnaire.addTranslation("contre", "against");
         assertThat(dictionnaire.getTranslation("contre"), equalTo("against"));
         assertThat(dictionnaire.getTranslation("contre"), equalTo("against"));
+    }
+
+    @After
+    public void initConstruct1(){
+        dictionnaire = new Dictionnary("example");
     }
 }
