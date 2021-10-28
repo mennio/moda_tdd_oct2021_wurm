@@ -2,6 +2,7 @@ import java.util.Objects;
 
 public class Dictionnary {
      private String nom;
+     private String t1, t2;
 
     public Dictionnary(){}
     public Dictionnary(String nom){
@@ -12,17 +13,16 @@ public class Dictionnary {
         return this.nom;
     }
 
-    public String getTranslation(String contre) {
+    public String getTranslation(String t) {
 
     }
 
     public Boolean isEmpty(){
-        //return (Objects.equals(this.nom, ""));
-        return true;
+        return (Objects.equals(this.nom, ""));
+        //return true;
     }
 
+    public void addTranslation(String trans1, String trans2) {
 
-    public void addTranslation(String contre, String against) {
-        
     }
 }

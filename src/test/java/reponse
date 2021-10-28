@@ -11,5 +11,9 @@ la notion de refactoring permet de rendre le code plus performant et d'eviter sa
 Il vat permettre de mieux comprendre le code.
 
 //exercice 1 question 8:
-
 la methode isEmpty retourne tous le temps true donc elle n'est pas fiable car si le dictionnaire est vide ou non elle va retourner true;
+
+
+//exercice 2 question 2:
+Les deux méthodes (getTranslation et addTranslation) ne sont différentes et ne concerne pas la meme chose
+ on peut donc dire qu elles sont indépendantes entre elles.
