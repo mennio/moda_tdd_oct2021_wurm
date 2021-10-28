@@ -10,4 +10,6 @@ Il faut donc return la variable nom pour la méthode getNom
 la notion de refactoring permet de rendre le code plus performant et d'eviter sa dupplication.
 Il vat permettre de mieux comprendre le code.
 
+//exercice 1 question 8:
 
+la methode isEmpty retourne tous le temps true donc elle n'est pas fiable car si le dictionnaire est vide ou non elle va retourner true;
